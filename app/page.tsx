@@ -1,7 +1,8 @@
-import CardSection from "@/components/CardSection"
-import Discord from "@/components/Discord"
-import FAQ from "@/components/FAQ"
-import Hero from "@/components/Hero"
+import CardSection from "@/components/CardSection";
+import Discord from "@/components/Discord";
+import FAQ from "@/components/FAQ";
+import Hero from "@/components/Hero";
+import PropParent from "@/components/PropParent";
 
 
 
@@ -13,6 +14,8 @@ const page = () => {
       <div className="w-full min-h-screen" id="home">
         <Hero />
       </div>
+
+      <PropParent />
 
       {/* Card Section */}
       <div className="w-full" id="about">
